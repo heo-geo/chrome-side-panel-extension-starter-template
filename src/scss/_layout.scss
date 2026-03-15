@@ -1,0 +1,12 @@
+@use 'variables' as *;
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+
+  &.center {
+    align-items: center;
+    justify-content: center;
+  }
+}

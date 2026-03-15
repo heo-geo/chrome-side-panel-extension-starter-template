@@ -1,0 +1,41 @@
+@use 'variables' as *;
+@use 'functions' as *;
+
+// Tab-specific blocks: .{tab-name}__hint and .{tab-name}__loading
+// Add one block per tab component below.
+
+.tab-a {
+  display: flex;
+  justify-content: center;
+  padding: rem-calc(20);
+  &__hint {
+    padding: rem-calc(20) rem-calc(14);
+    font-size: 11px;
+    color: $text-muted;
+    text-align: center;
+  }
+
+  &__loading {
+    display: flex;
+    justify-content: center;
+    padding: rem-calc(20);
+  }
+}
+
+.tab-b {
+  display: flex;
+  justify-content: center;
+  padding: rem-calc(20);
+  &__hint {
+    padding: rem-calc(20) rem-calc(14);
+    font-size: 11px;
+    color: $text-muted;
+    text-align: center;
+  }
+
+  &__loading {
+    display: flex;
+    justify-content: center;
+    padding: rem-calc(20);
+  }
+}

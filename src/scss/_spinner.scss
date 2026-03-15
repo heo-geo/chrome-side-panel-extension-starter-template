@@ -1,0 +1,19 @@
+@use 'variables' as *;
+
+.spinner {
+  width: 22px;
+  height: 22px;
+  border: 2px solid $border;
+  border-top-color: $accent;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+
+  &--sm {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

@@ -1,0 +1,12 @@
+// Main entry — variables and functions first, then partials in order.
+@use 'variables' as *;
+@use 'functions' as *;
+@use 'reset';
+@use 'layout';
+@use 'tab-nav';
+@use 'tab-content';
+@use 'footer';
+@use 'not-ready';
+@use 'spinner';
+@use 'buttons';
+@use 'tabs';
